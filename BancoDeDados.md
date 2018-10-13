@@ -56,6 +56,22 @@ muitos).
      segunda tabela pode estar relacionada a apenas uma linha na primeira
      tabela. 
 
+     Essa relação é estabelecida tomando a chave primaria da tabela do lado
+     _"um"_ e inserindo-a na tabela no lado _"muitos"_, onde torna uma chave
+     estrangeira. 
+
+   3. **Muitos para muitos** -> Quando uma única linha na primeira tabela pode
+      estar relacionada a muitas linhas na segunda tabela e uma única linha na
+      segunda tabela pode estar relacionada a muitas linhas na primeira tabela.
+      Para estabelecer esse relacionamento adequadamente, você deve criar o que
+      é conhecido como uma tabela de vinculação. 
+
+      Essa relação é estabelecida pegando uma cópia da _chave primária_ de cada
+      tabela no relacionamento e as usando para formar a nova tabela, essa
+      colunas desempenham funções distintas, juntas, elas formam a _chave
+      primaria_ composta da tabela de vinculação, e separadamente elas servem
+      como _chave estrangeira_. 
+
   
 
 
