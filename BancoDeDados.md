@@ -1,6 +1,6 @@
 # Revisão de DB.
 
-##Anatomia de um banco de dados.
+## Anatomia de um banco de dados.
 
   1. **Tabelas:** São as principais estruturas do banco de dados. Cada Tabela
      representa um único assunto ou "objeto" específico.
@@ -30,7 +30,7 @@
      como tabela base. As view permitem que você veja as informações do banco em
      diversas perspectivas.
 
-##Relacionamento  
+## Relacionamento  
 
 Quando duas ou mais tabelas estão interligadas ou relacionadas entre si. A
 maneira pelo qual o relacionamento é estabelecido depende do tipo de
@@ -47,9 +47,16 @@ muitos).
      |----------------------|:------------:| ---------------------:|
      |   _Chave Primaria_   | -----------> |   _Chave Secundária_  |
 
+     A linha na tabela secundária so existirá nesse relacionamento, a menos que
+     já exista uma linha correspondente na tabela primária.
+  
 
+  2. **Um para muitos** -> Quando uma única linha na primeira tabela pode estar
+     relacionadas a muitas linhas na segunda tabela, mas uma única linha na
+     segunda tabela pode estar relacionada a apenas uma linha na primeira
+     tabela. 
 
-
+  
 
 
 
