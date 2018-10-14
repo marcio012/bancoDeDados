@@ -30,3 +30,35 @@
     Filtra o resultado das funções agregadas em informações agrupadas. É
     semelhante a cláusula WHERE e é seguida por uma expressão usando operadores
     de comparação padrão, booleanos e especiais. 
+
+# Instruções de Select:
+
+  ```sql
+  SELECT _nomeDaColuna_ FROM _nomeDaTabela_ ;
+  ````
+  ---
+
+  Técnicas para tradução de um pedido para o sql:
+
+  Pedido: 
+  
+  Selecione o nome do assunto, o Id da categoria e o código do assunto na tabela
+  assunto 
+
+  ---
+
+  Filtro: 
+
+  Selecione _o_ nome do assunto, _o_ Id da categoria _e o_ código _do_ assunto _na tabela_
+  assunto 
+
+  ---
+
+  Resultado: 
+
+  ```sql
+  SELECT nome-assunto, id-categoria, codigo-assunto FROM Assuntos; 
+  ```
+  
+
+
